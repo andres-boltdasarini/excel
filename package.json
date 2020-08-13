@@ -1,0 +1,29 @@
+{
+  "name": "excel",
+  "version": "1.0.0",
+  "description": "Pure JavaScript Excel App",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack",
+    "build": "webpack --mode production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andres-boltdasarini/excel.git"
+  },
+  "keywords": [
+    "js",
+    "javascript"
+  ],
+  "author": "AK",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/andres-boltdasarini/excel/issues"
+  },
+  "homepage": "https://github.com/andres-boltdasarini/excel#readme",
+  "devDependencies": {
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12"
+  }
+}

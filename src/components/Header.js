@@ -12,7 +12,8 @@ const Header = () => {
 
             <div className="excel__header">
 
-                <Typography>Filled</Typography>
+                <img src='https://teliumnetwork.se/wp-content/uploads/2017/03/Font-Samsung-Logo.jpg'
+                     alt='ava'/>
 
                 <div>
 

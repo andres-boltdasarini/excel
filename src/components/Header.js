@@ -1,8 +1,10 @@
 import React from "react";
 import '../scss/header.scss'
 import '../scss/index.scss'
-
+import Typography from '@material-ui/core/Typography';
 import DeleteIcon from '@material-ui/icons/Delete';
+import ExitToAppIcon from '@material-ui/icons/ExitToApp';
+
 
 const Header = () => {
     return (
@@ -10,56 +12,23 @@ const Header = () => {
 
             <div className="excel__header">
 
-                <input type="text" className="input" value="Новая таблица"/>
+                <Typography>Filled</Typography>
 
                 <div>
 
                     <div className="button">
-
-                        <i className="material-icons">delete</i>
+                        <DeleteIcon />
                     </div>
 
                     <div className="button">
-                        <DeleteIcon />
-
+                        <ExitToAppIcon/>
                     </div>
 
                 </div>
 
             </div>
 
-            <div className="excel__toolbar">
 
-                <div className="button">
-                    <i className="material-icons">format_align_left</i>
-                </div>
-
-                <div className="button">
-                    <i className="material-icons">format_align_center</i>
-                </div>
-
-                <div className="button">
-                    <i className="material-icons">format_align_right</i>
-                </div>
-
-                <div className="button">
-                    <i className="material-icons">format_bold</i>
-                </div>
-
-                <div className="button">
-                    <i className="material-icons">format_italic</i>
-                </div>
-
-                <div className="button">
-                    <i className="material-icons">format_underlined</i>
-                </div>
-
-            </div>
-
-            <div className="excel__formula">
-                <div className="info">fx</div>
-                <div className="input" contentEditable spellCheck="false"></div>
-            </div>
         </div>
 
     )

@@ -2,6 +2,8 @@ import React from "react";
 import '../scss/header.scss'
 import '../scss/index.scss'
 
+import DeleteIcon from '@material-ui/icons/Delete';
+
 const Header = () => {
     return (
         <div className="excel">
@@ -13,11 +15,13 @@ const Header = () => {
                 <div>
 
                     <div className="button">
+
                         <i className="material-icons">delete</i>
                     </div>
 
                     <div className="button">
-                        <i className="material-icons">exit_to_app</i>
+                        <DeleteIcon />
+
                     </div>
 
                 </div>

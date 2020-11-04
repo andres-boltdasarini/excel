@@ -1,11 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
 @import "~normalize.css";
-
 @import "header";
-@import "toolbar";
-@import "formula";
-@import "table";
-@import "dashboard";
 
 * {
 
@@ -17,6 +12,26 @@ body {
 }
 
 .excel {
+
+}
+
+&__bar {
+  left: 0;
+  right: 0;
+  top: $header-height;
+  position: fixed;
+  height: 40px;
+  background: black;
+  justify-content: space-between;
+  display: flex;
+}
+&__bar2 {
+  left: 0;
+  right: 0;
+  top: $header2-height;
+  position: fixed;
+  height: 20px;
+  background: dimgrey;
 
 }
 

@@ -1,0 +1,26 @@
+@import "variables";
+@import "mixins";
+
+%header-shared  {
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  height: $header-height;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #fff;
+  box-shadow: 0 2px 5px 2px rgba(60, 64, 67, 0.15);
+  z-index: 1000;
+
+  .button {
+    @include button(red);
+  }
+}
+%text-shared {
+  color: #dadce0;
+  font-weight: bold;
+  font-family: sans-serif;
+  padding: 10px;
+}

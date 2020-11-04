@@ -1,15 +1,15 @@
 import React from "react";
 
-import '../scss/index.scss'
+import '../scss/header.scss'
 import DeleteIcon from '@material-ui/icons/Delete';
 import ExitToAppIcon from '@material-ui/icons/ExitToApp';
 import Typography from '@material-ui/core/Typography';
 
 const Header = () => {
     return (
-        <div className="excel">
+        <div>
 
-            <div className="excel__header">
+            <div className="header">
 
                 <img src='https://teliumnetwork.se/wp-content/uploads/2017/03/Font-Samsung-Logo.jpg'
                      alt='ava'/>
@@ -27,7 +27,7 @@ const Header = () => {
                 </div>
 
             </div>
-            <div className="excel__header__bar">
+            <div className="bar">
                 <div className='text'>
                     Galaxy S20
                 </div>
@@ -36,9 +36,9 @@ const Header = () => {
                 </div>
 
 </div>
-            <div className="excel__header__bar2">
+            <div className="bar2">
                 <div className='text2'>
-                    <Typography>Galaxy S20</Typography>
+                    Galaxy S20
                 </div>
             </div>
 

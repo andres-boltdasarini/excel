@@ -1,63 +1,30 @@
 @import "variables";
 @import "mixins";
+@import "class";
 
-.excel__header {
-  position: fixed;
-  left: 0;
-  right: 0;
-  top: 0;
-  height: $db-header-height;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  background: #fff;
-  box-shadow: 0 2px 5px 2px rgba(60, 64, 67, 0.15);
-  z-index: 1000;
-
-  &__bar {
-    left: 0;
-    right: 0;
-    top: $db-header-height;
-    position: fixed;
-    height: 40px;
-    background: black;
-
-
-    /*&:hover {
-      border: 1px solid $border-color;
-    }
-
-    &:focus {
-      border: 2px solid blue;
-    }*/
-  }
-  &__bar2 {
-    left: 0;
-    right: 0;
-    top: $header2-height;
-    position: fixed;
-    height: 20px;
-    background: dimgrey;
-
-  }
-
-  .button {
-    @include button(red);
-  }
-
+.header {
+  @extend %header-shared
 }
-.excel__header img {
+.header img {
   height: 35px;
   padding: 10px 15px 10px 10px;
 }
+.bar {
+  @extend %header-shared;
+  top: $header-height;
+  height: 40px;
+  background: black;
+}
+.bar2 {
+  @extend %header-shared;
+  top: $header2-height;
+  height: 20px;
+  background: dimgrey;
+}
 .text {
-  color: #dadce0;
-  padding: 10px;
-  font-weight: bold;
-  font-family: sans-serif;
-
+  @extend %text-shared;
 }
 .text2 {
-  color: #dadce0;
-
+  @extend %text-shared;
+  font-size: 10px;
 }

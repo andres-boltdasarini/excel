@@ -29,7 +29,10 @@ const Header = () => {
             </div>
             <div className="excel__header__bar">
                 <div className='text'>
-                    <Typography>Galaxy S20</Typography>
+                    Galaxy S20
+                </div>
+                <div className='text'>
+                rwarrrrrrrrrrrrrrrrrrrrrrr
                 </div>
 
 </div>

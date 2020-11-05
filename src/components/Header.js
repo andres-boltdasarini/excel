@@ -3,7 +3,7 @@ import React from "react";
 import '../scss/header.scss'
 import DeleteIcon from '@material-ui/icons/Delete';
 import ExitToAppIcon from '@material-ui/icons/ExitToApp';
-import Typography from '@material-ui/core/Typography';
+import ShopIcon from '@material-ui/icons/Shop';
 
 const Header = () => {
     return (
@@ -32,13 +32,27 @@ const Header = () => {
                     Galaxy S20
                 </div>
                 <div className='text'>
-                rwarrrrrrrrrrrrrrrrrrrrrrr
+                <div className='text'>
+                    69 999 p
+                </div>
+                    <div className="button">
+                        <ShopIcon/>
+                    </div>
                 </div>
 
 </div>
             <div className="bar2">
                 <div className='text2'>
-                    Galaxy S20
+                    особенности
+                </div>
+                <div className='text2'>
+                    характеристики
+                </div>
+                <div className='text2'>
+                    поддержка
+                </div>
+                <div className='text2'>
+                    сравнить
                 </div>
             </div>
 
@@ -160,31 +174,6 @@ const Header = () => {
         </div><div>
             rwar
         </div>vvv
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
         </div>

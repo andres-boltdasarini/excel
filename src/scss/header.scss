@@ -2,8 +2,12 @@
 @import "mixins";
 @import "class";
 
+
 .header {
-  @extend %header-shared
+  @extend %header-shared;
+  .button {
+    @include button(red);
+  }
 }
 .header img {
   height: 35px;
@@ -14,15 +18,30 @@
   top: $header-height;
   height: 40px;
   background: black;
+
+
+  .button {
+    height: 24px;
+    min-width: 24px;
+    padding: 6px;
+    text-align: center;
+    position: relative;
+    display: inline-block;
+    color: white;
+  }
 }
 .bar2 {
   @extend %header-shared;
   top: $header2-height;
   height: 20px;
-  background: dimgrey;
+  background: #313131;
+  justify-content: normal;
 }
 .text {
   @extend %text-shared;
+  display: flex;
+  align-content: center;
+
 }
 .text2 {
   @extend %text-shared;

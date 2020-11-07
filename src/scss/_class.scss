@@ -23,3 +23,27 @@
   font-family: sans-serif;
   padding: 10px;
 }
+
+%buy-shared {
+  width: 100px;
+  height: 20px;
+  background: cornflowerblue;
+  border-radius: 14px;
+  border: 1px solid cornflowerblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 10px;
+  text-decoration: none;
+  color: #000;
+  text-align: center;
+  margin: 5px 0 0 10px;
+
+  &:hover {
+    cursor: pointer;
+    background: blue;
+    border: 1px solid blue;
+    color: white;
+
+  }
+}

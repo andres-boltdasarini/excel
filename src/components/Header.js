@@ -35,8 +35,8 @@ const Header = () => {
                 <div className='text'>
                     69 999 p
                 </div>
-                    <div className="button">
-                        <ShopIcon/>
+                    <div href="#" className="buy">
+                        Купить сейчас
                     </div>
                 </div>
 

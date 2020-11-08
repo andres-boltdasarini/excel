@@ -1,9 +1,9 @@
 import React from "react";
 
 import '../scss/header.scss'
-import DeleteIcon from '@material-ui/icons/Delete';
-import ExitToAppIcon from '@material-ui/icons/ExitToApp';
-import ShopIcon from '@material-ui/icons/Shop';
+import AccountBoxIcon from '@material-ui/icons/AccountBox';
+import ShoppingCartIcon from '@material-ui/icons/ShoppingCart';
+import SearchIcon from '@material-ui/icons/Search';
 
 const Header = () => {
     return (
@@ -17,11 +17,15 @@ const Header = () => {
                 <div>
 
                     <div className="button">
-                        <DeleteIcon />
+                        <AccountBoxIcon />
                     </div>
 
                     <div className="button">
-                        <ExitToAppIcon/>
+                        <ShoppingCartIcon/>
+                    </div>
+
+                    <div className="button">
+                        <SearchIcon/>
                     </div>
 
                 </div>

@@ -14,6 +14,13 @@ const About = () => {
             <br/>
             <img src='https://images.samsung.com/is/image/samsung/ru-feature-this-is-the-phone-that-will-change-photography-238743452?$FB_TYPE_A_JPG$'
                  alt='foto'/>
+            <br/>
+            <br/>
+                 <div>
+                     *Функция 8K Video Snap позволяет превращать кадры 8K видео в великолепные фотоснимки с разрешением 33 МП.
+                 </div>
+            <br/>
+            <br/>
         </div>
     )
 }

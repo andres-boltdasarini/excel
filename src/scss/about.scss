@@ -4,9 +4,7 @@
 
 .body {
   position: absolute;
-  left: 0;
-  right: 0;
   top: $header-all-height;
-  display: flex;
-  justify-content: center
+  text-align: center;
+  padding: 0 200px 0 200px;
 }

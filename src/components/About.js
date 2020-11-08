@@ -4,11 +4,16 @@ import '../scss/about.scss'
 const About = () => {
     return (
         <div className='body'>
-
-
-                    fdssssssssssssssssssssssssss ssssssssssssssssssssssssssss ssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss ssssssssssssssss ssfffffff fffffffffffffffffffffffffffffffffff ffffffffffffffffffffffffs
-
-
+            <h1>Телефон, меняющий взгляд на фотосъемку.</h1>
+            <div>
+                Встречайте Galaxy S20. Благодаря функции 8K Video Snap, вы получаете уникальную возможность снимать видео и превращать кадры снятого видео в фотографии высокого разрешения. Добавьте к этому надежную защиту ваших данных с помощью встроенной платформе безопасности Samsung Knox, умную батарею, мощный процессор и огромную встроенную память — и смартфон Galaxy S20 откроет перед вами новый мир возможностей, доступных теперь с помощью мобильного телефона.
+            <br/>
+            </div>
+            <br/>
+            <br/>
+            <br/>
+            <img src='https://images.samsung.com/is/image/samsung/ru-feature-this-is-the-phone-that-will-change-photography-238743452?$FB_TYPE_A_JPG$'
+                 alt='foto'/>
         </div>
     )
 }

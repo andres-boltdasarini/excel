@@ -1,0 +1,12 @@
+@import "variables";
+@import "mixins";
+@import "class";
+
+.body {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: $header-all-height;
+  display: flex;
+  justify-content: center
+}

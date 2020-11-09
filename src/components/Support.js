@@ -1,24 +1,20 @@
 import React from "react";
 import '../scss/about.scss'
+import '../scss/header.scss'
 
 const Support = () => {
     return (
         <div className='body'>
             <h1>Поддержка</h1>
             <div>
-                Вых с помощью цмартбильного телефона.
+                Поиск магазинов поблизости.
+                Будет использована информация о местоположении устройства.
                 <br/>
             </div>
             <br/>
-            <br/>
-            <br/>
-
-            <br/>
-            <br/>
-            <div>
-                *Функция 8K Video Snap позволяет превращать кадры 8K видео в великолепные фотоснимки с разрешением 33 МП.
+            <div className="buy">
+                Перейти в поддержку->
             </div>
-            <br/>
             <br/>
         </div>
     )

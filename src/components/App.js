@@ -1,8 +1,10 @@
 import React, { Component } from "react";
-
 import Header from "@/components/Header";
 import About from "@/components/About";
 import Support from "@/components/Support";
+import {Route} from "react-router-dom";
+
+
 
 
 class App extends Component {
@@ -10,7 +12,8 @@ class App extends Component {
         return (
             <div>
                 <Header/>
-                <Support/>
+                <Route path='/about' component={About}/>
+                <Route path='/support' render={() => <Support/>}/>
             </div>
         )
     }

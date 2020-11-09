@@ -13,6 +13,7 @@ module.exports = {
   mode: 'development',
   entry: ['@babel/polyfill', './index.js'],
   output: {
+    publicPath: '/',
     filename: filename('js'),
     path: path.resolve(__dirname, 'dist')
   },
@@ -26,7 +27,8 @@ module.exports = {
   devtool: isDev ? 'source-map' : false,
   devServer: {
     port: 3000,
-    hot: isDev
+    hot: isDev,
+    historyApiFallback: true
   },
   plugins: [
     new CleanWebpackPlugin(),

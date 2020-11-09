@@ -4,6 +4,7 @@ import '../scss/header.scss'
 import AccountBoxIcon from '@material-ui/icons/AccountBox';
 import ShoppingCartIcon from '@material-ui/icons/ShoppingCart';
 import SearchIcon from '@material-ui/icons/Search';
+import {NavLink} from "react-router-dom";
 
 const Header = () => {
     return (
@@ -47,13 +48,13 @@ const Header = () => {
 </div>
             <div className="bar2">
                 <div className='text2'>
-                    особенности
+                    <NavLink to="/about">особенности</NavLink>
                 </div>
                 <div className='text2'>
                     характеристики
                 </div>
                 <div className='text2'>
-                    поддержка
+                    <NavLink to="/support">поддержка</NavLink>
                 </div>
                 <div className='text2'>
                     сравнить

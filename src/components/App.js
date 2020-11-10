@@ -12,6 +12,7 @@ class App extends Component {
         return (
             <div>
                 <Header/>
+                <Route exact={true} path='/' component={About}/>
                 <Route path='/about' component={About}/>
                 <Route path='/support' render={() => <Support/>}/>
             </div>

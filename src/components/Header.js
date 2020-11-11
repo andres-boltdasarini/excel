@@ -7,6 +7,9 @@ import SearchIcon from '@material-ui/icons/Search';
 import {NavLink} from "react-router-dom";
 
 const Header = () => {
+    let busket = () => {
+        alert('Ваша корзина пуста.')
+    }
     return (
         <div>
 
@@ -22,7 +25,8 @@ const Header = () => {
                     </div>
 
                     <div className="button">
-                        <ShoppingCartIcon/>
+                        <ShoppingCartIcon onClick={busket}>
+                            </ShoppingCartIcon>
                     </div>
 
                     <div className="button">

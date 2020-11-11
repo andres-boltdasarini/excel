@@ -1,10 +1,12 @@
 import React from "react";
 import '../scss/about.scss'
 import '../scss/header.scss'
+import Bar from "@/components/Bar";
 
 const Support = () => {
     return (
         <div className='body'>
+            <Bar/>
             <h1>Поддержка</h1>
             <div>
                 Поиск магазинов поблизости.

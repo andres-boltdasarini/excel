@@ -24,9 +24,7 @@ const Header = () => {
                 <div>
 
                     <div className="button">
-                        <AccountBoxIcon>
-                           {/* <NavLink to="/about">особенности</NavLink>*/}
-                        </AccountBoxIcon>
+                        <NavLink to="/account"><AccountBoxIcon/></NavLink>
                     </div>
 
                     <div className="button">

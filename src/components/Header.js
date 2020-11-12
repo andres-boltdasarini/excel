@@ -10,9 +10,6 @@ const Header = () => {
     let busket = () => {
         alert('Ваша корзина пуста.')
     }
-   /* let account = () => {
-        <NavLink to="/about">особенности</NavLink>
-    }*/
     return (
         <div>
 

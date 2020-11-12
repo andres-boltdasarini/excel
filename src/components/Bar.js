@@ -4,6 +4,9 @@ import {NavLink} from "react-router-dom";
 
 
 const Bar = () => {
+    let busket = () => {
+        alert('Ваша корзина пуста.')
+    }
     return(
         <div>
         <div className="bar">
@@ -11,10 +14,10 @@ const Bar = () => {
                 Galaxy S20
             </div>
             <div className='text'>
-                <div className='text'>
+                <div className='text' >
                     69 999 p
                 </div>
-                <div className="buy">
+                <div className="buy" onClick={busket}>
                     Купить сейчас
                 </div>
             </div>

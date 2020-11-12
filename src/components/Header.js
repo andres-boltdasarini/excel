@@ -18,8 +18,12 @@ const Header = () => {
 
             <div className="header">
 
-                <img src='https://teliumnetwork.se/wp-content/uploads/2017/03/Font-Samsung-Logo.jpg'
-                     alt='ava'/>
+
+                <NavLink to="/">
+                    <img src='https://teliumnetwork.se/wp-content/uploads/2017/03/Font-Samsung-Logo.jpg'
+                         alt='ava'/>
+                </NavLink>
+
 
                 <div>
 

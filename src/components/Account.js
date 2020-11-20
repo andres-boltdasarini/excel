@@ -11,6 +11,8 @@ const Account = () => {
 
                 <br/>
             </div>
+            <div contentEditable=''>LOGIN</div>
+            <div contentEditable=''>PASSWORD</div>
             <br/>
             <div className="buy">
                 войти

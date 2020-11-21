@@ -5,16 +5,15 @@ import '../scss/about.scss'
 const Account = () => {
     return (
         <div className='body'>
-
             <h1>Вход в Samsung Account</h1>
             <div>
-                <br/>
                 LOGIN
             </div>
             <div>
                 <br/>
             </div>
-            <div className='insert' contentEditable=''></div>
+            <div className='insert' contentEditable=''>
+            </div>
             <div>
                 <br/>
                 PASSWORD
@@ -22,7 +21,8 @@ const Account = () => {
             <div>
                 <br/>
             </div>
-            <div className='insert' contentEditable=''></div>
+            <div className='insert' contentEditable=''>
+            </div>
             <br/>
             <div className="buy">
                 войти

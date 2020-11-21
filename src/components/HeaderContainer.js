@@ -2,13 +2,23 @@ import React from "react";
 import Header from "@/components/Header";
 
 class HeaderContainer extends React.Component {
+    state = {
+        isAuth: false
+    }
+    activateEditMode = () => {
+        this.setState({
+            isAuth: true
+        })}
+    busket = () => {
+        alert('Ваша корзина пуста.')
+    }
     render() {
-        let busket = () => {
-            alert('Ваша корзина пуста.')
-        }
+
         return (
             <div>
-                <Header busket={busket}/>
+                <Header busket={this.busket}
+                        activateEditMode={this.activateEditMode}
+                        isAuth={this.state.isAuth}/>
             </div>
 
         )

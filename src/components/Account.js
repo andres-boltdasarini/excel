@@ -8,11 +8,21 @@ const Account = () => {
 
             <h1>Вход в Samsung Account</h1>
             <div>
-
+                <br/>
+                LOGIN
+            </div>
+            <div>
                 <br/>
             </div>
-            <div contentEditable=''>LOGIN</div>
-            <div contentEditable=''>PASSWORD</div>
+            <div className='insert' contentEditable=''></div>
+            <div>
+                <br/>
+                PASSWORD
+            </div>
+            <div>
+                <br/>
+            </div>
+            <div className='insert' contentEditable=''></div>
             <br/>
             <div className="buy">
                 войти

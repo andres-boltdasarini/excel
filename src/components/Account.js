@@ -4,56 +4,37 @@ import '../scss/about.scss'
 
 class Account extends React.Component {
     state = {
-        posts: [
-            {id: 1, message: 'test'},
-            {id: 2, message: 'It',},
-            {id: 3, message: 'Boom'},
-            {id: 4, message: 'Day'},
-        ],
-        newPostText: ''
+        userId: null,
+        email: null,
+        login: null,
+        isAuth: false
     };
-    addPostAction = (text) => {
-        let newPost = {
-            id: 5,
-            message: this.state.newPostText
-        }
+    login = (email, password) => {
         this.setState({
-            posts: [...this.state.posts, newPost],
-            newPostText: text
-        })
-    }
-    updateNewPost = (text) => {
-        this.setState({
-            newPostText: text
+            email: email,
+            password: password
         })
     }
 
     render() {
-
-        let postsElements =
-            this.state.posts.map(p => <div>{p.message}</div>)
-        let newPostElement = React.createRef();
-
-        let onAddPost = () => {
-            let text = newPostElement.current.value;
-            this.addPostAction(text);
+        let loginElement = React.createRef();
+        let passwordElement = React.createRef();
+        let addEmail = () => {
+            let email = loginElement.current.value;
+            let password = passwordElement.current.value;
+            this.login(email,password);
         }
-        let onPostChange = () => {
-            let text = newPostElement.current.value;
-            this.updateNewPost(text);
-        }
-
         return (
             <div className='body'>
                 <h1>Вход в Samsung Account</h1>
                 <input
-                     onChange={onPostChange} ref={newPostElement}
-                     value={this.state.newPostText}>
+                     ref={loginElement} value={this.state.email}>
                 </input >
-                <div className="buy" onClick={onAddPost}>войти</div>
-                <div>
-                    {postsElements}
-                </div>
+                <input
+                    ref={passwordElement} value={this.state.password}>
+                </input >
+                <div className="buy" onClick={addEmail}>войти</div>
+
             </div>
         )
     }

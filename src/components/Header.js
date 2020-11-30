@@ -15,9 +15,7 @@ const Header = (props) => {
                 </NavLink>
                 <div>
                     <div className="button">
-                        { props.isAuth ? <NavLink to="/account"><AccountBoxIcon/>{props.login}</NavLink>
-                        :<NavLink to="/account"><AccountBoxIcon/>LOGIN</NavLink>}
-
+                        <NavLink to="/account"><AccountBoxIcon/></NavLink>
                     </div>
                     <div className="button">
                         <ShoppingCartIcon onClick={props.busket}>

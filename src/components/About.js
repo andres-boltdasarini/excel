@@ -14,8 +14,11 @@ const About = () => {
             <br/>
             <br/>
             <br/>
-            <img src='https://images.samsung.com/is/image/samsung/ru-feature-this-is-the-phone-that-will-change-photography-238743452?$FB_TYPE_A_JPG$'
-                 alt='foto'/>
+            <div>
+                <img src='https://images.samsung.com/is/image/samsung/ru-feature-this-is-the-phone-that-will-change-photography-238743452?$FB_TYPE_A_JPG$'
+                     alt='foto' className='img-test'/>
+            </div>
+
             <br/>
             <br/>
                  <div>

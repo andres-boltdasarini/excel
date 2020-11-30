@@ -8,6 +8,10 @@
   .button {
     @include button(red);
   }
+  .button a{
+    color: black;
+    @include button(red);
+  }
 }
 .header img {
   height: 35px;
@@ -43,8 +47,11 @@
   &:hover {
     cursor: pointer;
     text-decoration: underline;
-
   }
+}
+.text2 a{
+  color: white;
+  text-decoration: none;
 }
 .buy {
   @extend %buy-shared;

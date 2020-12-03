@@ -1,7 +1,7 @@
 {
-  "name": "excel",
+  "name": "simple",
   "version": "1.0.0",
-  "description": "Pure JavaScript Excel App",
+  "description": "Simple React App",
   "main": "webpack.config.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
